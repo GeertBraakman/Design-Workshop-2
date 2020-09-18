@@ -1,5 +1,5 @@
  ### Directories ###
-Design Workshop 2/Library/
+Design Workshop 2/Library/*
 Design Workshop 2/Temp/
 Design Workshop 2/Obj/
 Design Workshop 2/Temp/
@@ -22,5 +22,6 @@ Design Workshop 2/.vscode/
  *.booproj
  *.DS_store
 
-
+### Unignore ###
+!Design Workshop 2/Library/CurrentLayout-default.dwlt
 
