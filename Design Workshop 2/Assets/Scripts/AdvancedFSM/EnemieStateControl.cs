@@ -103,16 +103,10 @@ public class EnemieStateControl : AdvancedFSM
     void OnCollisionEnter(Collision collision)
     {
         //Reduce health
-        if (collision.gameObject.tag == "Bullet")
+        if (collision.gameObject.tag == "Player")
         {
-            health -= 25;
-
-            if (health <= 0)
-            {
-                Debug.Log("Switch to Dead State");
-                SetTransition(Transition.NoHealth);
-                Explode();
-            }
+            Debug.Log("Collision with player");
+            collision.gameObject.GetComponent<PlayerMovementSimpleV2>().Explode();
         }
     }
 

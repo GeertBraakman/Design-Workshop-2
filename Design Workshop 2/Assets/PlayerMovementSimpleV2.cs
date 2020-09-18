@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovementSimpleV2 : MonoBehaviour
 {
     //public GameObject Bullet;
-
+    public Text hitPlaceholder;
+    public AudioSource audioData;
     //private Transform Turret;
     //private Transform bulletSpawnPoint;
     private float curSpeed, targetSpeed, rotSpeed;
@@ -31,6 +33,25 @@ public class PlayerMovementSimpleV2 : MonoBehaviour
     {
         // Don't allow any more control changes when the game ends
         this.enabled = false;
+    }
+    public void Explode()
+    {
+        hitPlaceholder.text = "You don't deserve this hell!";
+        audioData = GetComponent<AudioSource>();
+        audioData.Play(0);
+        float rndX = Random.Range(10.0f, 30.0f);
+        float rndZ = Random.Range(10.0f, 30.0f);
+        for (int i = 0; i < 5; i++)
+        {
+            //GetComponent<Rigidbody>().AddExplosionForce(10000.0f, transform.position - new Vector3(rndX, 10.0f, rndZ), 40.0f, 10.0f);
+            GetComponent<Rigidbody>().AddForce(transform.forward * 1.0f);
+            GetComponent<Rigidbody>().velocity = transform.TransformDirection(new Vector3(rndX, 20.0f, rndZ));
+        }
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        transform.position = new Vector3(0, 5, 0);
+        //hitPlaceholder.text = "";
+        //Destroy(gameObject, 1.5f);
     }
 
     void Update()
