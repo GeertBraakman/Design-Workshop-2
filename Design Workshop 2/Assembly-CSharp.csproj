@@ -62,9 +62,7 @@
      <Compile Include="Assets\Scripts\Misc\AutoDestruct.cs" />
      <Compile Include="Assets\Scripts\FSM.cs" />
      <Compile Include="Assets\Scripts\AdvancedFSM\AdvancedFSM.cs" />
-     <Compile Include="Assets\Scripts\Misc\PlayerTankController.cs" />
      <Compile Include="Assets\Scripts\AdvancedFSM\EnemieStateControl.cs" />
-     <Compile Include="Assets\Scripts\Misc\Bullet.cs" />
      <Compile Include="Assets\Scripts\AdvancedFSM\ChaseState.cs" />
      <Compile Include="Assets\Scripts\AdvancedFSM\FleeingState.cs" />
      <Compile Include="Assets\Scripts\Misc\GameManager.cs" />

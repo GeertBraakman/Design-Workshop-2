@@ -26,10 +26,6 @@ public class EnemieStateControl : AdvancedFSM
         if (!playerTransform)
             print("Player doesn't exist.. Please add one with Tag named 'Player'");
 
-        //Get the turret of the tank
-        //turret = gameObject.transform.GetChild(0).transform;
-        //bulletSpawnPoint = turret.GetChild(0).transform;
-
         //Start Doing the Finite State Machine
         ConstructFSM();
     }
