@@ -26,13 +26,13 @@ public class ChaseState : FSMState
         if (dist <= 200.0f)
         {
             //Debug.Log("Switch to Attack state");
-            npc.GetComponent<EnemieStateControl>().SetTransition(Transition.ReachPlayer);
-            npc.GetComponent<EnemieStateControl>().statePlaceholder.text = "Attacking!";
+            //npc.GetComponent<EnemieStateControl>().SetTransition(Transition.ReachPlayer);
+            //npc.GetComponent<EnemieStateControl>().statePlaceholder.text = "Attacking!";
         }
         //Go back to patrol is it become too far
         else if (dist >= 300.0f)
         {
-            //Debug.Log("Switch to Patrol state");
+            Debug.Log("Switch to Patrol state");
             npc.GetComponent<EnemieStateControl>().SetTransition(Transition.LostPlayer);
             npc.GetComponent<EnemieStateControl>().statePlaceholder.text = "Patrolling!";
         }

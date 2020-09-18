@@ -18,7 +18,7 @@ public class PatrolState : FSMState
         //When the distance is near, transition to chase state
         if (Vector3.Distance(npc.position, player.position) <= 300.0f)
         {
-            //Debug.Log("Switch to Chase State");
+            Debug.Log("Switch to Chase State");
             npc.GetComponent<EnemieStateControl>().SetTransition(Transition.SawPlayer);
             npc.GetComponent<EnemieStateControl>().statePlaceholder.text = "Chasing!";
         }
@@ -30,7 +30,7 @@ public class PatrolState : FSMState
 		
         if (Vector3.Distance(npc.position, destPos) <= 100.0f)
         {
-            //Debug.Log("Reached to the destination point\ncalculating the next point");
+            Debug.Log("Reached to the destination point\ncalculating the next point");
             FindNextPoint();
             npc.GetComponent<EnemieStateControl>().statePlaceholder.text = "Reached destination!";
         }
