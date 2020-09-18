@@ -7,6 +7,8 @@ TagManager:
   - Lucifer
   - Portal
   - Soul
+  - Bullet
+  - Wanderpoint
   layers:
   - Default
   - TransparentFX
