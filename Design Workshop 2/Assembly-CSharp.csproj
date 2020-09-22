@@ -71,43 +71,43 @@
      <Compile Include="Assets\Scripts\AdvancedFSM\FSMState.cs" />
      <None Include="Assets\QS\QS-Textures-Grass-v1\Documentation\Readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/glenn/Documents/Game Minor/Unity workshop/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/hp/Desktop/sep2020-stud-chris-buter/Design/Design-Workshop-2/Design Workshop 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
